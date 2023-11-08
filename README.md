@@ -1,7 +1,7 @@
-# This Program
+### This Program
 sband radio image postprocessing python program
 
-##	HELP COMMAND
+###	help command
 
 ```
 python s_band_image_processor.py -h
@@ -9,7 +9,7 @@ python s_band_image_processor.py -h
 s_band_image_processor.py  -i <input_file> -o <output_file>
 ```
 
-##	PROCESS IMAGE COMMAND
+###	command to process input file
 
 ```
 python s_band_image_processor.py -i "trafficlog.bin"
@@ -18,7 +18,7 @@ on success
 	output.jpg
 ```
 
-##	PROCESS IMAGE COMMAND WITH SPECIFIED "output name"
+###	command to process input file with "output name" specified
 
 ```
 python s_band_image_processor.py -i "trafficlog.bin" -o myOutput.jpg
@@ -27,5 +27,5 @@ on success
 	myOutput.jpg
 ```
 
-## Images
+### Images
 ![This is an alt text.](example_snapshot.jpg "This is a sample image.")
